@@ -1,3 +1,14 @@
+.main{
+  background-color: rgba(47, 50, 80, 0.904);
+  color: white;
+}
 .headerImg{
   width: 100%;
+}
+.mainDiv{
+  text-align: center;
+  padding: 10px;
+}
+.mainDiv>img{
+  width: 70%;
 }
