@@ -3,7 +3,10 @@
   color: white;
 }
 .headerImg{
-  width: 100%;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  
 }
 .mainDiv{
   text-align: center;
