@@ -20,7 +20,7 @@ return (
   <div className="mainDiv">
     <h1 ref={ref}> LEVEL-1 Beginner Level</h1>
     <h4>It's short and simple—a great way for beginners to get started with strength training.</h4>
-    <img alt="Beginner Level" src="https://i1.wp.com/timeshood.com/wp-content/uploads/2018/01/Crunch-abs-exercise-.jpg?resize=696%2C700&ssl=1" alt="Exercise for beginner" />
+    <img alt="Beginner Level" src="https://bloximages.newyork1.vip.townnews.com/westerngazette.ca/content/tncms/assets/v3/editorial/c/99/c99bffe4-1830-11e9-9a7e-b7ca80c86bce/5c3ce00803cc4.image.gif" />
   </div >
 );
 }

@@ -4,7 +4,8 @@ import './App.css';
 function Header() {
   return (
     <div>
-      <img className="headerImg" alt="Chest Beginners" src="https://cscottdesign.co.uk/wp-content/uploads/2014/07/Gym-GIF.gif" />
+      <h1 className="mainDiv">Start Exercise For Good Health</h1>
+      <img className="headerImg" alt="Chest Beginners" src="https://cdn.dribbble.com/users/530738/screenshots/1979160/dd.gif" />
     </div>
   );
 }

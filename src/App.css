@@ -1,6 +1,5 @@
 .main{
-  background-color: rgba(47, 50, 80, 0.904);
-  color: white;
+  color: black;
 }
 .headerImg{
   width: 90%;
@@ -13,5 +12,11 @@
   padding: 10px;
 }
 .mainDiv>img{
-  width: 70%;
+  width: 60%;
+}
+h4{
+  font-size: 26px;
+}
+h1{
+  font-size: 44px;
 }
