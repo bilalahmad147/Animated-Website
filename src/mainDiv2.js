@@ -4,7 +4,16 @@ import useWebAnimations,{bounceInLeft} from "@wellyshen/use-web-animations";
 
 
 function MainDiv2() {
-  const { ref } = useWebAnimations({...bounceInLeft});
+  const { ref } = useWebAnimations({
+    keyframes: [
+      {transform: 'scale3d(1, 1, 1)', offset: 0}, 
+      {transform: 'scale3d(1.05, 1.05, 1.05)', offset: 0.5}, 
+      {transform: 'scale3d(1, 1, 1)', offset: 1}
+    ],
+    timing: {
+      duration: 2000,
+      iterations: Infinity
+    }});
   return (
     <div className="mainDiv">
       <h1> LEVEL-2 Mediocre Level</h1>

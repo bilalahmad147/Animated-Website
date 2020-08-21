@@ -4,7 +4,24 @@ import useWebAnimations,{bounceInLeft} from "@wellyshen/use-web-animations";
 
 
 function MainDiv3() {
-  const { ref } = useWebAnimations({...bounceInLeft});
+  const { ref } = useWebAnimations({
+    keyframes: [
+      {transform: 'scale3d(1, 1, 1)', offset: 0}, 
+      {transform: 'scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg)', offset: 0.1}, 
+      {transform: 'scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg)', offset: 0.2}, 
+      {transform: 'scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg)', offset: 0.3}, 
+      {transform: 'scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg)', offset: 0.4}, 
+      {transform: 'scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg)', offset: 0.5}, 
+      {transform: 'scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg)', offset: 0.6}, 
+      {transform: 'scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg)', offset: 0.7}, 
+      {transform: 'scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg)', offset: 0.8}, 
+      {transform: 'scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg)', offset: 0.9}, 
+      {transform: 'scale3d(1, 1, 1)', offset: 1}
+    ],
+    timing: {
+      duration: 3000,
+      iterations: Infinity,
+    }});
   return (
     <div className="mainDiv">
       <h1 ref={ref}> LEVEL-3 Expert Level</h1>
